@@ -17,7 +17,6 @@ let package = Package(
         .library(
             name: "FindTownCore",
             targets: ["FindTownCore"]),
-        
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -30,7 +29,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "FindTownCore",
-            dependencies: ["FindTownUI"]),
+            dependencies: ["FindTownUI", "RxSwift"]),
         .target(
             name: "FindTownNetwork",
             dependencies: []),
