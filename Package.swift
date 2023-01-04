@@ -37,8 +37,8 @@ let package = Package(
             name: "FindTownUI",
             dependencies: [],
             resources: [
-                .process("Resource/Assets.xcassets"),
-                .process("Resource/Fonts"),
+                .process("Assets.xcassets"),
+                .process("Fonts"),
             ] ),
         
         .testTarget(
