@@ -36,7 +36,13 @@ let package = Package(
         .target(
             name: "FindTownUI",
             dependencies: [],
-            resources: [.process("Resource")] ),
+            resources: [
+                .process("Resource"),
+                .process("Button"),
+                .process("Extensions"),
+                .process("Label"),
+                .process("Popup")
+            ] ),
         
         .testTarget(
             name: "FindTownLibraryTests",
