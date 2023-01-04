@@ -38,10 +38,6 @@ let package = Package(
             dependencies: [],
             resources: [
                 .process("Resource"),
-                .process("Button"),
-                .process("Extensions"),
-                .process("Label"),
-                .process("Popup")
             ] ),
         
         .testTarget(
